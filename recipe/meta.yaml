@@ -1,5 +1,5 @@
 {% set name = "daiquiri" %}
-{% set version = "2.1.1" %}
+{% set version = "3.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0d5bf9c5719fbca4928dc2a882c165cd2b5c81be28f7f1626ced04c1c6b4aae2
+  sha256: cbc4a1ffdd98f25bb1962f3d580d5225796196712849798cce40af85c412d5ab
 
 build:
   number: 0
